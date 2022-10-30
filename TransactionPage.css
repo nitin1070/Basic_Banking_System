@@ -1,0 +1,122 @@
+ 
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+
+.userlist-div{
+                display:inline-block;
+                position: relative;
+                width: 40%;
+                top:270px;
+                height: 100px;
+
+
+                overflow: hidden;
+            }
+            .chooseuser-div{
+                display: inline-block;
+                position:  fixed;
+                width: 80%;
+                top:250px; 
+                left: 140px;
+                background-color: black;
+                color: blue;
+
+            }
+            table{
+                position: fixed;
+                top:120px;
+                width: 80%;
+                border: none;
+                border-collapse: collapse;
+                left:140px;
+                height: 100px;
+
+
+
+            }
+            th{
+                color: blue;
+                font-family: sans-serif;
+                font-size: 20px;
+            }
+
+            tr{
+                border-bottom: 1PX solid black;
+                text-decoration: none;
+                height: 5px;
+
+
+            }
+            tr:hover{
+                background-color: #D6EEEE;
+            }
+            td{
+                text-align: center;    
+                text-decoration: none;
+
+
+            }
+            .header{ 
+                display: flex;
+                justify-content: center;
+                position: relative;
+                flex-direction: row;
+                color: red; 
+                width: 80%;
+                align-content: center;
+                top:80px;
+                left: 140px;
+                font-size: 25px;
+                cursor: auto;
+                text-decoration: none;
+                background-color: black;
+              
+            }
+            .userlist-dropdown{
+                width: 70%;
+                height: 40px;
+                background-color: black;
+                color: whitesmoke;
+            }
+            .ammount-div{
+                display: flex;
+                position:  fixed;
+                width: 80%;
+                bottom:200px;
+                left: 140px; 
+                top:350px;
+                color: blue;
+
+
+                bottom: 150px;
+                height: 200px;
+                flex-flow:  column;
+                align-items: center;
+                flex-direction:  column;
+
+
+
+            } #ammount{
+                width: 80%;
+                height: 30px;
+                left: 10px;
+                margin-top: 20px;
+            }
+            #submit{
+                width: 300px;
+                height: 40px;
+                padding: 10px;
+                margin-top: 30px;
+                border: 1px solid black;
+                text-align: center;
+                background-color: black;
+                color: green;
+                font-size: 20px;
+                font-style:   normal;
+
+
+            }

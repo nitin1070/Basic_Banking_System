@@ -1,0 +1,193 @@
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .bg-img{
+    background-image: url('images/money-transfer-mobile-banking.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+    height: 100vh; 
+}
+
+.container{
+  width:100% ;
+  height: 60px;
+  padding: 0px 100px;
+  position: fixed;
+  background-color: aliceblue;
+  overflow: hidden;
+  position: fixed; 
+}
+ .container .logo{
+
+  float: left;
+  cursor: pointer;
+  padding: 10px 5px;
+  position: absolute;
+  left:50px;
+}
+ul{
+  float: right;
+  text-decoration: none; 
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  font-size: 25px;
+  padding: 20px 20px;
+  overflow: hidden;
+  
+}
+.navbar ul a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar ul a:hover{
+  color: blue;
+}
+.buttons {
+  display: flex;
+  height: 400px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  position: fixed;
+  width: 500px;
+  top:240px;
+  left:750px;
+  cursor: auto;
+ 
+  
+
+}
+.btn{
+
+  font-size: 30px;
+  text-decoration: none;
+  background-size: 30px;
+  font-style: oblique;
+  color: black;
+  border-style: outset;
+  width: 300px;
+  border-style: outset;
+  border-radius: 25%;
+  border-end-end-radius: 20%;
+  background-color: white;
+  text-align: center;
+   
+}
+.buttons a:hover{
+   color:black;
+   background-color: aqua;
+}
+
+.welcome{
+  display: flex;
+  position: fixed;
+  height: 100px;
+
+   top:80px;
+   left: 10px;
+   color: black;
+   font-size: 30px;
+   text-align: center;
+   overflow: hidden;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   cursor: auto;
+} 
+span{
+  color: blue;
+
+}
+.logoimage{
+  
+  display: flex;
+  position: fixed;
+  top:150px;
+  left:50px;
+ 
+}
+
+
+@keyframes changecolor {
+  from{font-size: 2px;}
+  to{font-size: 30px ;
+     color: black}
+  
+}
+#animation{
+  animation-name: changecolor;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+ 
+}
+@keyframes myanimation {
+  from{
+        font-size: 2px;
+  }
+  to{
+          font-size: 30px;
+          color: blue;
+  }
+  
+  
+}
+.btn{
+  animation-name: myanimation;
+  animation-duration: 5s;
+ animation-iteration-count: initial;
+
+}
+.footer{
+
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-items: flex-start;
+  
+  
+}
+#name{
+  color:red;
+}
+@keyframes nameEffect {
+  from{
+         font-size: 1px;
+         color: red;
+  }
+  to{
+      font-size: 20px;
+      color: blue;
+  }
+}
+#name{
+  animation-name:nameEffect;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes homelogo 
+{
+   from{transform: 90deg;}
+   to{transform: 0deg;}
+}
+.logoimage{
+  animation-name:homelogo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+  
+ 
+ 
